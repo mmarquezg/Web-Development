@@ -1,0 +1,335 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* NAV BAR */
+.nav-bar {
+  margin: 0;
+  padding: 40px 80px;
+}
+
+.nav-bar ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar ul li{
+  margin: 10px;
+}
+
+
+/* MAIN SECTION */
+.main-section-get-started-container{
+  display: flex;
+}
+
+.main-section-get-started-container .main-section-get-started{
+  width: 45%;
+}
+
+.main-section-get-started-container .main-section-get-started-img{
+  width: 55%;
+}
+
+.main-section-get-started-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section-get-started{
+  padding-top: 100px;
+}
+
+.main-section-get-started-img img{
+  width: 80%;
+  height: 80%;
+}
+
+main .main-section-get-started-container, .main-section-info-container{
+  padding: 0 80px;
+  padding-bottom: 100px;
+}
+
+
+.main-section-get-started-container, h1{
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.main-section-get-started-container p{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.main-section-get-started-form{
+  display: flex;
+}
+
+form .mail{
+  padding: 10px 0;
+  padding-left: 10px;
+  width: 55%;
+  font-family: 'Manrope', sans-serif;
+  margin-right: 5px;
+  box-shadow: 0 1px 4px lightgrey;
+  border: none;
+  border-radius: 5px;
+}
+
+form .main-button{
+  padding: 12px 50px;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+  margin-left: 5px;
+  color: white;
+  background-color: rgb(0, 13, 202,1);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px grey;
+}
+
+form .main-button:hover{
+  background-color: rgba(0, 51, 233, 0.8);
+}
+
+.main-section-info-container{
+  display: flex;
+  background: #F8F8FE;
+}
+
+.bg-curve img{
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+}
+
+.main-section-info-container .main-section-info{
+  width: 50%;
+}
+
+.main-section-info-container .main-section-info-img{
+  width:50%;
+}
+
+.main-section-info-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section-info-img img{
+  width: 80%;
+  height: 80%;
+}
+
+.main-section-info p{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.main-section-mentions p{
+  font-weight: initial;
+  font-size: initial;
+}
+
+section .how-it-works-container{
+  display: flex;
+  color: #3DA08F;
+  border-bottom: 1px solid #3DA08F;
+  width: 180px;
+}
+
+section .how-it-works-container .arrow-icon{
+  background-image: url('../images/icon-arrow.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+
+main .main-section-mentions{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  background: white;
+  flex-wrap: wrap;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+main .main-section-mentions .quote-icon{
+  background-image: url('../images/icon-quotes.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+}
+
+main .main-section-mentions .mention{
+  display: flex;
+  align-items: center;
+}
+
+main .main-section-mentions .mention img{
+  width: 55px;
+  height: auto;
+  border-radius: 100%;
+}
+
+main .mention-name{
+  margin-left: 15px;
+}
+
+main .mention-name h4{
+  margin: 5px 0;
+}
+
+main .mention-name p{
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+main .main-section-more-info-container{
+  display: flex;
+}
+
+main .main-section-more-info-container{
+  padding: 0 80px;
+  padding-bottom: 80px;
+  background: #575989;
+  color: white;
+}
+
+main .main-section-more-info{
+  width: 40%;
+}
+
+main .main-section-more-info h3{
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+main .main-section-more-info-email{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+
+.main-section-more-info-form .mail{
+  width: 95%;
+  border: none;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #07043B;
+}
+
+.main-section-more-info-form .main-button{
+  margin: 0;
+  margin-top: 10px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #07043B;
+}
+
+footer .social-media span {
+    color: white;
+}
+
+footer .footer-container{
+  padding: 0 80px;
+  padding-top: 90px;
+  background: #07043B;
+  color: white;
+}
+
+footer .fylo-logo img{
+  filter: invert(1) brightness(100000);
+}
+
+.footer-container .contact-info{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-info div ul li{
+  margin-bottom: 20px;
+}
+
+
+.phone-email ul li{
+  display: flex;
+  align-items: center;
+}
+
+.phone-email ul{
+  padding: 0;
+}
+
+.contact-info ul a{
+  color: white;
+}
+
+ul li .phone-icon{
+  background-image: url('../images/icon-phone.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  padding-right: 25px;
+}
+
+ul li .mail-icon{
+  background-image: url('../images/icon-email.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  padding-right: 25px;
+}
+
+.phone-email{
+  width: 25%;
+}
+
+.about-us-info{
+  width:50%;
+  justify-content: space-around;
+}
+
+.social-media{
+  width: 25%;
+}
+
+.contact-info .about-us-info{
+  display: flex;
+}
+
+.contact-info .social-media ul{
+  display: flex;
+}
